@@ -1,0 +1,8 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "mkdir -p dist && echo '<html></html>' > dist/index.html"
+  }
+}

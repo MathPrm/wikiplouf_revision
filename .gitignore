@@ -1,0 +1,62 @@
+# Environnements virtuels
+venv/
+env/
+.venv/
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# Migrations (optionnel si tu veux les ignorer)
+# **/migrations/
+
+# Fichiers de configuration sensibles
+.env
+
+# Fichiers de build / packaging
+build/
+dist/
+*.egg-info/
+
+# Tests / couverture
+.coverage
+htmlcov/
+.pytest_cache/
+
+# IDE / éditeurs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache Django / Celery
+celerybeat-schedule
+
+/medias
+
+# FRONTEND (React/Vite)
+frontend/node_modules/
+
+# Logs d'erreur npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers de build de production
+frontend/dist/
+static/dist/
+
+# Environnement local Vite
+frontend/.local
+frontend/.env.local
+frontend/.env.development.local
